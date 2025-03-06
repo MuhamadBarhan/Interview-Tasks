@@ -1,0 +1,33 @@
+<!-- Write your HTML body here -->
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Droid Player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h2>DROID PLAYER</h2>
+    </header>
+    
+    <div class="track-list"> 
+      <p class="list-desc">Track List</p>
+      <div id="card-container">
+      </div>
+    </div>
+
+    <div class="track-controller">
+      <h2 id="track-name">Track Name</h2>
+      <p id="track-genre">Genre</p>
+      <p><span id="current-time">0</span><input type="range" id="slider" min="0" value="0" step="1"/>
+<span id="end-time">0</span></p>
+      <div class="controls">
+        <button id="prev">⏮️</button>
+        <button id="play">▶️</button>
+        <button id="next">⏭️</button>
+        <button id="shuffle">🔀</button>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

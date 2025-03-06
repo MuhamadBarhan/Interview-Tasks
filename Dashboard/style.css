@@ -1,0 +1,181 @@
+/* Write your CSS here */
+body {
+  font-family: 'Arial';
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  position: relative;
+  width: 20%;
+  padding: 1rem;
+  border-right: 1px solid #ccc;
+}
+
+.left h4 {
+  text-align: center;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.left p {
+  margin: 2.5rem 1.5rem;
+  font-weight: 600;
+}
+
+.left span {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 1.3rem 5rem;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.right {
+  width: 80%;
+  padding: 2rem;
+}
+
+.right-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.rt1 {
+  background-color: lightgreen;
+  border-radius: 5px;
+  padding: 0.5rem
+}
+
+.red {
+  background-color: palevioletred;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 200px;
+  padding: 1rem;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-top h3 {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.3rem;
+}
+
+.right-bottom {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.right-bottom-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0.5rem 1.5rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  border-bottom: 1px solid #ccc;
+}
+
+th,td {
+  padding: 1rem;
+  text-align: left;
+  color: #303030;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.completed {
+  background-color: lightgreen;
+  color: green;
+}
+
+.delayed {
+  background-color: #ccc;
+  color:grey;
+}
+
+.risk {
+  background-color: palevioletred;
+  color: darkred;
+}
+
+.ongoing {
+  background-color: lightyellow;
+  color: darkorange;
+}
+
+.chart {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 150px;
+  width: 400px;
+  padding: 10px;
+}
+
+.bar {
+  width: 80px;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.bar-1 {
+  height: 65%;
+  background-color: orange;
+}
+
+.bar-2 {
+  height: 87%;
+  background-color: #f89c3c;
+}
+
+.bar-3 {
+  height: 20%;
+  background-color:#ffc17c;
+}
+
+.bar-4 {
+  height: 25%;
+  background-color: #ffd4a9;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-around
+}
+
+.label span {
+  display: block;
+}

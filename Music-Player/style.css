@@ -1,0 +1,96 @@
+/* Write your CSS here */
+body {
+  font-family: 'Arial';
+  background-color: #546e7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 1rem 3rem
+
+}
+
+header {
+  padding: 0.3rem 10rem;
+  text-align: center;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid white;
+}
+
+.track-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-desc {
+  color:white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#card-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1.8rem;
+  height: 50vh;
+  background-color: #eee;
+
+}
+
+.card {
+  flex: 1;
+  min-width: 300px;
+  background-color: #b0bec5;
+  border-radius: 10px;
+  padding: 1.5rem;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+  }
+
+.card:hover {
+  transform: scale(1.08);
+}
+
+.play-btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #546e7a;
+  border: 1px solid #bbb;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  color: white;
+}
+
+.track-controller {
+  color: white;
+  border-radius: 50px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem 3rem;
+  border: 1px solid white;
+}
+
+
+#prev, #play, #next, #shuffle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid #bbb;
+  margin: 0.5rem;
+  color: white;
+  font-size: 20px;
+}
